@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="contenedor">
+        <h2 class="logotipo">Abimael Lovera</h2>
+        <nav>
+          <ul>
+            <li><a href="#" class="activo">Inicio</a></li>
+            <li><a href="#">Programas</a></li>
+            <li><a href="#">Películas</a></li>
+            <li><a href="#">Más Recientes</a></li>
+            <li><a href="#">Mi Lista</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    
+    <main>
+      <div class="pelicula-principal">
+        <div class="contenedor">
+          <h3 class="titulo">Interestelar</h3>
+          <p class="description">
+            Narra las aventuras de un grupo de exploradores que hacen uso de un agujero de gusano recientemente descubierto para superar las limitaciones de los viajes espaciales tripulados y vencer las inmensas distancias que tiene un viaje interestelar.
+          </p>
+          <button class="boton" role="button"><i class="fas fa-play"></i>Reproducir</button>
+          <button class="boton" role="button"><i class="fas fa-info-circle"></i>Más Información</button>
+        </div>
+      </div>
+      <div class="peliculas-recomendadas contenedor">
+        <div class="contenedor-titulo-controles">
+          <h3>Películas Recomendadas</h3>
+          <div class="indicadores">
+            <button></button>
+            <button></button>
+          </div>
+        </div>
+        <div class="contenedor-principal">
+          <button role="button" id="flecha-izquierda" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+
+          <div class="contenedor-carousel">
+            <div class="carousel">
+              <div class="pelicula">
+                <a href="#"><img src="img/1.png" alt=""></a>
+              </div>
+              <div class="pelicula">
+                <a href="#"><img src="img/2.png" alt=""></a>
+              </div>
+              <div class="pelicula">
+                <a href="#"><img src="img/3.png" alt=""></a>
+              </div>
+              <div class="pelicula">
+                <a href="#"><img src="img/4.png" alt=""></a>
+              </div>
+              <div class="pelicula">
+                <a href="#"><img src="img/5.png" alt=""></a>
+              </div>
+              <div class="pelicula">
+                <a href="#"><img src="img/6.png" alt=""></a>
+              </div>
+              <div class="pelicula">
+                <a href="#"><img src="img/7.png" alt=""></a>
+              </div>
+            </div>
+          </div>
+
+          <button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+        </div>
+      </div>
+    </main>
+
+    <script src=https://kit.fontawesome.com/3f7fc6a175.js crossorigin="anonymous" ></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
