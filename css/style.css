@@ -173,8 +173,8 @@ Contenedor Principal y Flechas ----- ------ ------ ------ */
 .peliculas-recomendadas .contenedor-carousel {
   width: 100%;
   padding: 20px 0;
-  /*overflow: hidden; /* todo lo que sobresalga fuera del contenedor quiero que este oculto */
-  overflow-x: scroll;
+  overflow: hidden; /* todo lo que sobresalga fuera del contenedor quiero que este oculto */
+
   scroll-behavior: smooth;
 }
 
